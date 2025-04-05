@@ -22,9 +22,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'GhuraFira App',
-      initialRoute: '/',
       routes: {
-        '/': (context) => HomePage(),
+        '/': (context) => HomePage(),  // Add this route for the homepage
         '/bookings': (context) => BookingsPage(),
         '/flight': (context) => FlightPage(),
         '/giftcard': (context) => GiftCardPage(),
@@ -38,29 +37,6 @@ class MyApp extends StatelessWidget {
         '/tour': (context) => TourPage(),
         '/visa': (context) => VisaPage(),
       },
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Home')),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('Home Page'),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/bookings');
-              },
-              child: Text('Go to Bookings'),
-            ),
-          ],
-        ),
-      ),
     );
   }
 }

@@ -1,11 +1,20 @@
 {
+<<<<<<< HEAD
     "name": "ghurafira",
     "short_name": "ghurafira",
+=======
+    "name": "finalproject",
+    "short_name": "finalproject",
+>>>>>>> 3dd199c (Initial commit to Flightpages branch)
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
+<<<<<<< HEAD
     "description": "GhuraFira – Your Ultimate Travel Companion!",
+=======
+    "description": "A new Flutter project.",
+>>>>>>> 3dd199c (Initial commit to Flightpages branch)
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

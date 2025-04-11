@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GhuraFira
 
 **GhuraFira** is an online travel agency app designed to simplify the travel booking experience. Built using Flutter (Dart) with an optional Firebase backend, this app allows users to book flights and hotels, explore tour packages, and get visa assistance—all through a smooth and user-friendly interface.
@@ -23,3 +24,21 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/0xZahidp/GhuraFira.git
+=======
+# finalproject
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+>>>>>>> 3dd199c (Initial commit to Flightpages branch)

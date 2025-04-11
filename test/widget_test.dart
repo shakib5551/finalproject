@@ -8,7 +8,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:ghurafira/main.dart';
+=======
+import 'package:finalproject/main.dart';
+>>>>>>> 3dd199c (Initial commit to Flightpages branch)
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
